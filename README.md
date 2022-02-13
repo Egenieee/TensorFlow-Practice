@@ -93,10 +93,11 @@ generator model은 random noise vector를 입력받아 upsampling을 통해 원�
 
 discriminator model은 CNN 기반의 모델이며, generator가 생성한 이미지가 가짜인지(0), 진짜인지(1) 예측한 값을 출력한다. 
 
-#### - 200 epochs result
+#### - 200 epochs result using mnist dataset 
 ![dcgan_200epochs](./img/dcgan_200_epochs_1.gif)
 
-200 epoch을 돌린 결과물이다. 
+#### - 200 epochs result using fashion mnist dataset 
+![dcgan_200epochs](./img/dcgan_200_epochs_fashion_mnist.gif)
 
 ***
 #### 참고
